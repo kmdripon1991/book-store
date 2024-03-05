@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply font-medium tracking-wide transition-colors duration-200 text-blue-700 hover:text-blue-400
+}
+
+.btn-primary{
+    @apply text-white font-semibold rounded-md bg-blue-400 px-4 py-3
+}
+
+.btn-secondary{
+    @apply text-blue-800 font-semibold rounded-md bg-white px-3 py-2
+}
+
+.my-container{
+    @apply mx-8 my-16
+}
+
+.badge{
+    @apply bg-yellow-400 text-blue-900 px-3 rounded-xl font-semibold
+}
